@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.0/d3.min.js"></script>
+
+    <script src="/cancer_type.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1 class="text-center">Choose Chromosome or Gene</h1>
+        </div>
+
+
+        <div class="row">
+            <div class="col-xs-6 col-xs-offset-3">
+                <ul class="breadcrumb">
+                    <li><a href="/">Cancer Type</a></li>
+                    <li class="active">Gene or Karyotype</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-6 col-xs-offset-3">
+                <ul class="nav nav-tabs">
+                    <li><a href="#" id="karyotypes-tab">Karyotypes</a></li>
+                    <li><a href="#" id="genes-tab">Genes</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row" id="karyotypes-view">
+            <div class="col-xs-6 col-xs-offset-3"> 
+                <div class="row">
+                    <div class="col-xs-2">Chr 1</div>
+                    <div class="col-xs-2">Chr 2</div>
+                    <div class="col-xs-2">Chr 3</div>
+                    <div class="col-xs-2">Chr 4</div>
+                    <div class="col-xs-2">Chr 5</div>
+                    <div class="col-xs-2">Chr 6</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-2">Chr 7</div>
+                    <div class="col-xs-2">Chr 8</div>
+                    <div class="col-xs-2">Chr 9</div>
+                    <div class="col-xs-2">Chr 10</div>
+                    <div class="col-xs-2">Chr 11</div>
+                    <div class="col-xs-2">Chr 12</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-2">Chr 13</div>
+                    <div class="col-xs-2">Chr 14</div>
+                    <div class="col-xs-2">Chr 15</div>
+                    <div class="col-xs-2">Chr 16</div>
+                    <div class="col-xs-2">Chr 17</div>
+                    <div class="col-xs-2">Chr 18</div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-2">Chr 19</div>
+                    <div class="col-xs-2">Chr 20</div>
+                    <div class="col-xs-2">Chr 21</div>
+                    <div class="col-xs-2">Chr 22</div>
+                    <div class="col-xs-2">Chr 23</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row hidden" id="genes-view">
+            <div class="col-xs-6 col-xs-offset-3"> 
+                <form role="form">
+                    <input type="text" id="genes-filter" class="form-control" placeholder="Type name of the gene" />
+                    <select size="10" class="form-control" id="genes-list">
+                        <option>Gene 1</option>
+                        <option>Gene 2</option>
+                        <option>Gene 3</option>
+                        <option>Gene 4</option>
+                        <option>Gene 5</option>
+                        <option>Gene 6</option>
+                        <option>Gene 7</option>
+                        <option>Gene 42</option>
+                    </select>
+                    <button id="continue-genes" class="btn">Continue</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

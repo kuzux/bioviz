@@ -1,0 +1,9 @@
+.karyotype-link:hover{
+    background-color: #ddd;
+}
+
+.breadcrumb > li + li:before {
+    color: #CCCCCC;
+    content: "/ ";
+    padding: 0 5px;
+}

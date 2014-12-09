@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.0/d3.min.js"></script>
+
+    <script src="/index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1 class="text-center">Choose Cancer Type</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-4 col-xs-offset-4">
+                <ul class="breadcrumb">
+                    <li class="active">Cancer Type</li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-xs-4 col-xs-offset-4">
+                <form role="form" class="form">
+                    <div class="form-group">
+                        <select id="cancer-type" class="form-control">
+                            <option>Leukemia</option>
+                            <option>Breast Cancer</option>
+                        </select>
+
+                        <button id="go-btn" class="btn">Go</button>
+                        <button id="help-btn" class="btn">Help/How To</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="row hidden" id="help-content">
+            <div class="col-xs-4 col-xs-offset-4">
+                <p></p>
+                <p>Buraya aciklama, nasil kullanilir falan gelecek.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

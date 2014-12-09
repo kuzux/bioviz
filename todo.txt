@@ -1,0 +1,10 @@
+* Writing the explanation/help                     -> Ozge
+* Title page                                       -> Sarah
+* Main Visualization Part
+  - Histone Markers/Genes                          -> Arda/Akin
+  - Pathways                                       -> Sarah/Defne
+* Discuss the pathways visualization/iterate on it -> Group
+* Filtering the data to be more operable           -> Ulduz
+  - Choosing the histone markers                   -> Acelya
+  - Processing bigwig file?                        -> Ulduz/Arda
+* Paper(s)                                         -> Everyone needs to write for themselves
