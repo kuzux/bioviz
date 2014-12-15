@@ -80,7 +80,7 @@ results = map(lambda x: yResolution*x/maxval, results)
 
 w = png.Writer(len(results), yResolution, alpha = True)
 outfile = open(out_filename, "wb")
-w.write_array(outfile, image_generator())
+w.write_array(outfile, list(image_generator()))
 outfile.close()
 
 # print results
